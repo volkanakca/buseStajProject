@@ -1,0 +1,37 @@
+2023-08-23 03:51:24,410 ERROR [HttpClient] Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_116 
+2023-08-23 03:51:24,412 WARN  [VersionDetector] Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_116 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_116) 
+2023-08-23 03:51:24,519 INFO  [WebDriverManager] Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver 
+2023-08-23 03:51:25,576 INFO  [Downloader] Downloading https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip 
+2023-08-23 03:51:26,087 INFO  [Downloader] Extracting driver from compressed file chromedriver_win32.zip 
+2023-08-23 03:51:26,182 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\volka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe 
+2023-08-23 04:01:42,374 ERROR [HttpClient] Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_116 
+2023-08-23 04:01:42,377 WARN  [VersionDetector] Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_116 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_116) 
+2023-08-23 04:01:42,473 INFO  [WebDriverManager] Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver 
+2023-08-23 04:01:43,550 INFO  [Downloader] Downloading https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip 
+2023-08-23 04:01:44,046 INFO  [Downloader] Extracting driver from compressed file chromedriver_win32.zip 
+2023-08-23 04:01:44,143 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\volka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe 
+2023-08-23 04:01:44,152 INFO  [WebDriverManager] Using chromedriver 114.0.5735.90 (resolved driver for Chrome 116) 
+2023-08-23 04:01:44,156 INFO  [WebDriverManager] Reading https://chromedriver.storage.googleapis.com/ to seek chromedriver 
+2023-08-23 04:01:45,318 INFO  [Downloader] Downloading https://chromedriver.storage.googleapis.com/114.0.5735.90/chromedriver_win32.zip 
+2023-08-23 04:01:45,817 INFO  [Downloader] Extracting driver from compressed file chromedriver_win32.zip 
+2023-08-23 04:01:45,912 INFO  [WebDriverManager] Exporting webdriver.chrome.driver as C:\Users\volka\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe 
+2023-08-23 10:13:55,946 INFO  [Log] Turkcell web sitesine gidildi. 
+2023-08-23 10:13:56,562 INFO  [Log] Web sitesi kapatıldı. 
+2023-08-23 10:13:56,603 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-08-23 10:14:45,114 INFO  [Log] Turkcell web sitesine gidildi. 
+2023-08-23 10:14:45,737 INFO  [Log] Web sitesi kapatıldı. 
+2023-08-23 10:14:45,777 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-08-23 10:17:34,575 INFO  [Log] Turkcell web sitesine gidildi. 
+2023-08-23 10:17:35,187 INFO  [Log] Web sitesi kapatıldı. 
+2023-08-23 10:17:41,613 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-08-23 10:18:24,868 INFO  [Log] Turkcell web sitesine gidildi. 
+2023-08-23 10:18:30,282 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-08-23 10:18:47,940 INFO  [Log] Turkcell web sitesine gidildi. 
+2023-08-23 10:18:48,043 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-08-23 10:18:59,118 INFO  [Log] Web sitesi kapatıldı. 
+2023-08-23 11:03:51,137 INFO  [Log] Turkcell web sitesine gidildi. 
+2023-08-23 11:03:51,303 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-08-23 11:04:05,330 INFO  [Log] Web sitesi kapatıldı. 
+2023-08-23 11:08:52,216 INFO  [Log] Turkcell web sitesine gidildi. 
+2023-08-23 11:08:52,373 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-08-23 11:09:21,888 INFO  [Log] Web sitesi kapatıldı. 
