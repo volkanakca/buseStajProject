@@ -13,10 +13,10 @@ import static io.qameta.allure.SeverityLevel.NORMAL;
 
 public class TestTurkcellTests extends BaseTest {
 
-    @Test(description = "Degisikligi kontrol etme.")
+    @Test(description = "Web sitesine başarılı kullanıcı girişi yapma.")
     @Severity(NORMAL)
-    @Description("Urun renginin degisikliğini kontrol etme.")
-    @Story("Urunun olduğu URL'e git. Urunun rengini değistir ve degistigini kontrol et.")
+    @Description("Web sitesine başarılı kullanıcı girişi yap ve kontrol et.")
+    @Story("Turkcell web sitesine git. Hızlı giriş ekranından giriş yap ve kontrol et.")
     @Order(1)
     public void LoginToTurkcellWebsite() {
 
@@ -27,7 +27,10 @@ public class TestTurkcellTests extends BaseTest {
         fastLoginPage.successfulFastLogin();
         loginPage.verifySuccessfulLogin();
     }
-    @Test
+    @Test(description = "Meslek bilgisini güncelleme.")
+    @Severity(NORMAL)
+    @Description("Meslek bilgisini güncelleme ve kontrol etme.")
+    @Story("Turkcell web sitesine giriş yap. Meslek bilgisini 'Doktor' olarak güncelle ve değiştiğini kontrol et. ")
     @Order(2)
     public void jobUpdate(){
 
@@ -37,7 +40,10 @@ public class TestTurkcellTests extends BaseTest {
         pasajPage.changeJobandSubmit("Doktor");
         pasajPage.verifySuccessfulTransaction();
     }
-    @Test
+    @Test(description = "Pc-Tablet fiyatlarını en yüksek fiyata göre sıralama.")
+    @Severity(NORMAL)
+    @Description("Pc-Tablet bölümündeki ürün fiyatlarını en yüksek fiyata göre sıralama ve kontol etme.")
+    @Story("Web sitesine giriş yap. Pasaj'da Pc-Tablet bölümündeki ürün fiyatlarını yüksekten düşüğe sırala ve kontrol et.")
     @Order(3)
     public void sortComputerAndTabletPrices() {
 
