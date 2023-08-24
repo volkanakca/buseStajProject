@@ -19,8 +19,8 @@ public class BaseTest {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions co=new ChromeOptions();
         co.addArguments("--remote-allow-origins=*");
-        co.addArguments("--headless");
-        co.addArguments("--window-size=1920x1080");
+        //co.addArguments("--headless");
+        //co.addArguments("--window-size=1920x1080");
         driver = new ChromeDriver(co);
         driver.get("https://www.turkcell.com.tr");
         driver.manage().window().maximize();
