@@ -21,7 +21,7 @@ public class FastLoginPage extends Util {
     private final By password = new By.ByCssSelector("input#password");
     private final By submit = By.xpath("//button[@id='password-login-forward-button']");
 
-    @Step("successfulFastLogin tamamlandı.")
+    @Step("Kullanıcı bilgileri ile giriş yapıldı.")
     public void successfulFastLogin() {
 
         String firstWindow = driver.getWindowHandle();

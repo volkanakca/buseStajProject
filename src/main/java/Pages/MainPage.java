@@ -13,7 +13,7 @@ public class MainPage extends Util {
     }
     public final By transactionCenter = By.xpath("//em[@class='icon-account-regular']");
     private final By loginOrSignUp = By.xpath("//a[@class='a-btn a-btn--full a-btn--white js-fast-login-btn a-btn--fast-login']");
-    @Step("Fastlogin sayfası açılıyor.")
+    @Step("Hızlı Giriş sayfası açılıyor.")
     public void goToFastLoginPage() {
         log.info(" Turkcell web sitesine gidildi. ");
         waitForVisibility(transactionCenter);

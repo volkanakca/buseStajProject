@@ -1,6 +1,7 @@
 package Pages;
 
 import common.Util;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -36,6 +37,7 @@ public class PasajPage extends Util {
     private final By price = By.xpath("//div[@class='m-p-pc__foot']");
     private final By transactionSuccessful = By.xpath("//div[@class='components-molecules-modal_m-modal-custom__body__2J20h']");
 
+    @Step("Meslek bilgisi 'Doktor' olarak güncellendi.")
     public void changeJobandSubmit(String newJob) {
         click(passageIcon);
         click(myAccount);
@@ -51,6 +53,7 @@ public class PasajPage extends Util {
         waitFor(5000);
     }
 
+    @Step("Meslek bilgisinin güncellendiği doğrulandı.")
     public void verifySuccessfulTransaction() {
 
         if (isVisible(transactionSuccessful)) {
@@ -75,6 +78,7 @@ public class PasajPage extends Util {
         }
     }
 
+    @Step("Pc-Tablet bölümüne gidildi ve fiyatlar yüksekten düşüğe sıralandı.")
     public void listPricesHighestToLowest() {
         click(passageIcon);
         click(bilgisayarTablet);
@@ -87,6 +91,7 @@ public class PasajPage extends Util {
         scrollDown(1500);
     }
 
+    @Step("Fiyatların yüksekten düşüğe doğru sıralandığı doğrulandı.")
     public void verifyPricesListedCorrectly() {
         List<WebElement> priceElements = driver.findElements(price);
         List<Double> prices = new ArrayList<>(); // Bu Listede toplanacak fiyatlar depolanır.

@@ -1,8 +1,7 @@
-import io.github.bonigarcia.wdm.WebDriverManager;
+import io.qameta.allure.Step;
 import logger.Log;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -14,6 +13,7 @@ public class BaseTest {
 
     WebDriver driver ;
 
+    @Step("Tarayıcı ayarları yapıldı ve web sitesine gidildi.")
     @BeforeMethod
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
@@ -25,6 +25,7 @@ public class BaseTest {
         log.info("Turkcell web sitesine gidildi.");
     }
 
+    @Step("Web sitesi kapatıldı.")
     @AfterMethod
     public void tearDown() {
         driver.quit();

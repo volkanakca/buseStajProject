@@ -12,7 +12,7 @@ public class LoginPage extends Util {
     }
     private final By yourProfile = By.xpath("//em[@class='icon-account-loggedin-placeholder']");
     private final By welcomeText = By.xpath("//div[@class='o-header__welcome']");
-    @Step("verifySuccessfulLogin tamamlandı.")
+    @Step("Kullanıcının sisteme başarılı giriş yaptığı doğrulandı.")
     public void verifySuccessfulLogin() {
         waitForVisibility(yourProfile);
         click(yourProfile);
@@ -26,6 +26,7 @@ public class LoginPage extends Util {
         }
     }
 
+    @Step("Kullanıcı sisteme giriş yapmış durumda.")
     public void alreadyLoggedInUser(){
 
         MainPage mainPage = new MainPage(getDriver());
