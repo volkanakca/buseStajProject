@@ -35,7 +35,7 @@ public class FastLoginPage extends Util {
                 enterText(phoneNo, "5398563311");
                 clickWithActions(loginWithFastLoginPasswordCheckbox);
                 click(login);
-                click(login);
+                //click(login);
                 waitFor(2000);
                 waitForVisibility(password);
                 enterText(password, "Fizy34");

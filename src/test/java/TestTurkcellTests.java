@@ -25,6 +25,7 @@ public class TestTurkcellTests extends BaseTest {
         LoginPage loginPage = new LoginPage(driver);
         mainPage.goToFastLoginPage();
         fastLoginPage.successfulFastLogin();
+        loginPage.popupIfExist();
         loginPage.verifySuccessfulLogin();
     }
     @Test(description = "Meslek bilgisini güncelleme.")
