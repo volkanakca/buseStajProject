@@ -2,11 +2,13 @@ package Pages;
 
 import common.Util;
 import io.qameta.allure.Step;
+import logger.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.Assert;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -36,18 +38,19 @@ public class PasajPage extends Util {
     private final By secondSelect = By.xpath("//label[@for='sort-3']");
     private final By price = By.xpath("//div[@class='m-p-pc__foot']");
     private final By transactionSuccessful = By.xpath("//div[@class='components-molecules-modal_m-modal-custom__body__2J20h']");
+    Log log = new Log();
 
     @Step("Meslek bilgisi 'Doktor' olarak güncellendi.")
     public void changeJobandSubmit(String newJob) {
         click(passageIcon);
         click(myAccount);
         waitFor(3000);
-        System.out.println(" Hesabım dropdown menüsü açıldı. ");
+        log.info(" Hesabım dropdown menüsü açıldı. ");
         click(myUserInformation);
         WebElement meslekButton = driver.findElement(jobBox);
         Actions actions = new Actions(driver);
         actions.click(meslekButton).sendKeys(newJob).sendKeys(Keys.ENTER).perform();
-        System.out.println(" Yeni meslek bilgisi girildi. ");
+        log.info(" Yeni meslek bilgisi girildi. ");
         clickWithActions(myContactInfoNeingSavedCkeckbox);
         click(updateButton);
         waitFor(5000);
@@ -57,9 +60,9 @@ public class PasajPage extends Util {
     public void verifySuccessfulTransaction() {
 
         if (isVisible(transactionSuccessful)) {
-            System.out.println(" Meslek bilgisi başarılı bir şekilde güncellendi.");
+            log.info(" Meslek bilgisi başarılı bir şekilde güncellendi. ");
         } else {
-            System.out.println(" İşlem başarılı değil !");
+            Assert.fail(" Meslek bilgisi güncellenemedi !");
         }
     }
 
@@ -82,52 +85,61 @@ public class PasajPage extends Util {
     public void listPricesHighestToLowest() {
         click(passageIcon);
         click(bilgisayarTablet);
-        System.out.println(" Bilgisayar-Tablet bölümüne girildi.");
+        log.info(" Bilgisayar-Tablet bölümüne girildi.");
         waitFor(5000);
         scrollDown(650);
         waitFor(3000);
         clickTheHighestPriceOptionInDropdown();
-        System.out.println(" En Yüksek Fiyat seçeneği seçildi.");
+        log.info(" En Yüksek Fiyat seçeneği seçildi.");
         scrollDown(1500);
     }
 
-    @Step("Fiyatların yüksekten düşüğe doğru sıralandığı doğrulandı.")
-    public void verifyPricesListedCorrectly() {
-        List<WebElement> priceElements = driver.findElements(price);
-        List<Double> prices = new ArrayList<>(); // Bu Listede toplanacak fiyatlar depolanır.
+    // Fiyatları çeker ve işler.
+    private List<Double> extractPrices(List<WebElement> priceElements) { // Çekilen fiyatların listesini -priceElements- oluşturur.
+        List<Double> prices = new ArrayList<>(); // prices boş arraylistini oluşturur.
 
-        for (WebElement priceElement : priceElements) { // Her fiyat ögesi bir elemente işlenir
-            String priceText = priceElement.getText().replaceAll("[^0-9.]", "");
-            // Listede sadece sayılar ve nokta bulunur.
+        for (WebElement priceElement : priceElements) { // Her element için döner.
+            String priceText = priceElement.getText().replaceAll("[^0-9.]", ""); // Sayı ve nokta dışındakileri çıkartır.
             if (!priceText.isEmpty()) {
-                try { // Ondalığa çevir
-                    double price = Double.parseDouble(priceText);
+                try {
+                    double price = Double.parseDouble(priceText); // Boş değilse ondalığa çevirir ve price listesine ekler.
                     prices.add(price);
-                } catch (NumberFormatException ignored) { // Çevrilmezse hatayı görmezden gel
+                } catch (NumberFormatException ignored) {
                 }
-
             }
         }
 
-        prices.sort(Collections.reverseOrder()); // fiyatları büyükten küçüğe sırala
-        boolean isSorted = prices.equals(new ArrayList<>(prices));
-        if (isSorted) {
-            System.out.println(" Fiyatlar büyükten küçüğe doğru sıralandı.");
-        } else {
-            System.out.println(" Fiyatlar doğru şekilde sıralanmadı.");
-        }
-        // Konsola basmak için fiyatları bir dize olarak oluştur
-        StringBuilder stringBuilder = new StringBuilder(" Fiyat Listesi: [");
+        return prices;
+    }
 
-        for (Double price : prices) { // Döngü her bir fiyat için çalışır ve append fiyatı StringBuilderın sonuna ekler.
+    private void verifySortedPrices(List<Double> prices) {
+        List<Double> sortedPrices = new ArrayList<>(prices);
+        sortedPrices.sort(Collections.reverseOrder()); // Fiyatları büyükten küçüğe sıralar
+
+        Assert.assertEquals(prices, sortedPrices, " Fiyatlar doğru şekilde sıralanmadı. "); // Listeler karşılaştırılır ve doğrular.
+    }
+
+    private String createPriceList(List<Double> prices) { // Double fiyat listesini alır metine dönüştürür.
+        StringBuilder stringBuilder = new StringBuilder(" Fiyat Listesi: [");
+        for (Double price : prices) {
             stringBuilder.append(price).append(" , ");
         }
-        stringBuilder.setLength(stringBuilder.length() - 3); // En sondaki "," silinsin
+        stringBuilder.setLength(stringBuilder.length() - 3); // Son virgül ve boşluğu siler.
         stringBuilder.append("]");
+        return stringBuilder.toString();
+    }
 
-        // Fiyatları konsola bir dize olarak yazdır
-        System.out.println(stringBuilder);
+    @Step("Fiyatların yüksekten düşüğe sıralandığı doğrulandı.")
+    public void verifyPricesListedCorrectly() {
+        List<WebElement> priceElements = driver.findElements(price);
+
+        List<Double> prices = extractPrices(priceElements);
+
+        verifySortedPrices(prices);
+
+        String priceString = createPriceList(prices);
+        log.info(priceString);
+
         waitFor(4000);
-
     }
 }

@@ -26,7 +26,7 @@ public class TestTurkcellTests extends BaseTest {
         mainPage.goToFastLoginPage();
         fastLoginPage.successfulFastLogin();
         loginPage.popupIfExist();
-        loginPage.verifySuccessfulLogin();
+        loginPage.verifyLogin();
     }
     @Test(description = "Meslek bilgisini güncelleme.")
     @Severity(NORMAL)
@@ -37,7 +37,9 @@ public class TestTurkcellTests extends BaseTest {
 
         LoginPage loginPage = new LoginPage(driver);
         PasajPage pasajPage = new PasajPage(driver);
-        loginPage.alreadyLoggedInUser();
+        loginPage.succesfullyLoggedInUser();
+        loginPage.popupIfExist();
+        loginPage.verifyLogin();
         pasajPage.changeJobandSubmit("Doktor");
         pasajPage.verifySuccessfulTransaction();
     }
@@ -50,10 +52,11 @@ public class TestTurkcellTests extends BaseTest {
 
         PasajPage pasajPage = new PasajPage(driver);
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.alreadyLoggedInUser();
+        loginPage.succesfullyLoggedInUser();
+        loginPage.popupIfExist();
+        loginPage.verifyLogin();
         pasajPage.listPricesHighestToLowest();
         pasajPage.verifyPricesListedCorrectly();
 
     }
-
 }
