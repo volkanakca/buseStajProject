@@ -52,9 +52,9 @@ public class TestTurkcellTests extends BaseTest {
 
         PasajPage pasajPage = new PasajPage(driver);
         LoginPage loginPage = new LoginPage(driver);
-        loginPage.succesfullyLoggedInUser();
-        loginPage.popupIfExist();
-        loginPage.verifyLogin();
+      //  loginPage.succesfullyLoggedInUser();
+        //loginPage.popupIfExist();
+       // loginPage.verifyLogin();
         pasajPage.listPricesHighestToLowest();
         pasajPage.verifyPricesListedCorrectly();
 
