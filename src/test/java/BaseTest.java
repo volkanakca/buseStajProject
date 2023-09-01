@@ -17,6 +17,8 @@ public class BaseTest {
     public void setUp() {
         System.setProperty("webdriver.chrome.driver", "src/main/resources/chromedriver.exe");
         ChromeOptions co = new ChromeOptions();
+        co.addArguments("--headless");
+        co.addArguments("--window-size=1920x1080");
         co.addArguments("--remote-allow-origins=*");
         driver = new ChromeDriver(co);
         driver.get("https://www.turkcell.com.tr");
