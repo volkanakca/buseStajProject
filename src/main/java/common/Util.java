@@ -1,5 +1,6 @@
 package common;
 
+import logger.Log;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -7,20 +8,25 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 
 import java.time.Duration;
 
 public class Util {
 
+    Log log = new Log();
     private final WebDriver driver;
 
     public Util(WebDriver driver) {
         this.driver = driver;
-    } //Bu yöntem, bir WebDriver nesnesi alır ve onu sınıf içindeki driver özelliğine atar.
-      // Bu sayede sınıf içindeki diğer yöntemler, bu WebDriver nesnesini kullanabilir.
+    }
 
     public void click(By locator) {
-        driver.findElement(locator).click();
+        try {
+            driver.findElement(locator).click();
+        } catch (Exception e) {
+            log.error(" Elemente tıklanamadı " + e.getMessage());
+        }
     }
 
     protected WebDriver getDriver() {
@@ -28,7 +34,11 @@ public class Util {
     }
 
     public boolean isElementPresent(By locator) {
-        return !driver.findElements(locator).isEmpty();
+        boolean isPresent = !driver.findElements(locator).isEmpty();
+        if (!isPresent) {
+            log.error(" Element sayfada mevcut değil! " + locator.toString());
+        }
+        return isPresent;
     }
 
 
@@ -39,8 +49,7 @@ public class Util {
 
     public WebElement waitForVisibility(By locator) {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(20));
-        wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-        return null;
+       return wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
     }
 
     public void enterText(By locator, String text) {
@@ -66,6 +75,7 @@ public class Util {
             wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
             return true;
         } catch (Exception e) {
+            Assert.fail(" Element görünür halde değil! ");
             return false;
         }
     }

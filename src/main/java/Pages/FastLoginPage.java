@@ -1,5 +1,6 @@
 package Pages;
 
+import ConfigReader.ConfigReader;
 import common.Util;
 import io.qameta.allure.Step;
 import logger.Log;
@@ -30,28 +31,33 @@ public class FastLoginPage extends Util {
 
         String firstWindow = driver.getWindowHandle();
         Set<String> allWindows = driver.getWindowHandles();
+        boolean fastLoginOpened = false;
+
         for (String window : allWindows) {
             if (!window.equals(firstWindow)) {
                 driver.switchTo().window(window);
                 log.info(" Hızlı giriş sayfası açıldı. ");
                 waitForVisibility(phoneNo);
-                enterText(phoneNo, "5398563311");
+                enterText(phoneNo, ConfigReader.getPhoneNo());
                 clickWithActions(loginWithFastLoginPasswordCheckbox);
                 click(login);
-//                click(login);
+                click(login);
                 waitFor(2000);
                 waitForVisibility(password);
-                enterText(password, "Fizy34");
+                enterText(password, ConfigReader.getPassword());
                 click(submit);
                 waitFor(2000);
 
+                fastLoginOpened = true;
                 driver.switchTo().window(firstWindow);
                 waitFor(2000);
                 break;
             }
         }
 
-
+        if (!fastLoginOpened) {
+            log.info("Hızlı giriş sayfası açılamadı!");
+        }
     }
 }
 
