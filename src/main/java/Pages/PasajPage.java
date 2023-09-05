@@ -1,15 +1,14 @@
 package Pages;
 
+import ConfigReader.ConfigReader;
 import common.Util;
 import io.qameta.allure.Step;
 import logger.Log;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.Assert;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -38,10 +37,11 @@ public class PasajPage extends Util {
     private final By secondSelect = By.xpath("//label[@for='sort-3']");
     private final By price = By.xpath("//div[@class='m-p-pc__foot']");
     private final By transactionSuccessful = By.xpath("//div[@class='components-molecules-modal_m-modal-custom__body__2J20h']");
+    private final By categoryHighlights = By.xpath("(//div[@class='ins-editable ins-element-editable'])[1]");
     Log log = new Log();
 
-    @Step("Meslek bilgisi 'Doktor' olarak güncellendi.")
-    public void changeJobandSubmit(String newJob) {
+    @Step("Meslek bilgisi 'Akademisyen' olarak güncellendi.")
+    public void changeJobandSubmit() {
         click(passageIcon);
         click(myAccount);
         waitFor(3000);
@@ -49,11 +49,10 @@ public class PasajPage extends Util {
         click(myUserInformation);
         WebElement meslekButton = driver.findElement(jobBox);
         Actions actions = new Actions(driver);
-        actions.click(meslekButton).sendKeys(newJob).sendKeys(Keys.ENTER).perform();
+        actions.click(meslekButton).sendKeys(ConfigReader.getNewJob()).perform();
         log.info(" Yeni meslek bilgisi girildi. ");
         clickWithActions(myContactInfoNeingSavedCkeckbox);
         click(updateButton);
-        waitFor(5000);
     }
 
     @Step("Meslek bilgisinin güncellendiği doğrulandı.")
@@ -66,68 +65,81 @@ public class PasajPage extends Util {
         }
     }
 
-    public void clickTheHighestPriceOptionInDropdown() {
-        Util util = new Util(driver);
-        try {
-            waitForClickable(firstDropdown);
-            click(firstDropdown);
-            util.waitFor(3000);
-            click(firstSelect);
-        } catch (Exception e) {
-            waitForClickable(secondDropdown);
-            click(secondDropdown);
-            util.waitFor(3000);
-            click(secondSelect);
-        }
-    }
 
-    @Step("Pc-Tablet bölümüne gidildi ve fiyatlar yüksekten düşüğe sıralandı.")
-    public void listPricesHighestToLowest() {
+    @Step(" Pc-Tablet bölümüne gidildi. ")
+    public void PcTabletPage() {
         click(passageIcon);
         click(bilgisayarTablet);
         log.info(" Bilgisayar-Tablet bölümüne girildi.");
-        waitFor(5000);
-        scrollDown(650);
+        waitForVisibility(categoryHighlights);
+        scrollDown(700);
         waitFor(3000);
-        clickTheHighestPriceOptionInDropdown();
-        log.info(" En Yüksek Fiyat seçeneği seçildi.");
-        scrollDown(1500);
     }
 
-    // Fiyatları çeker ve işler.
-    private List<Double> extractPrices(List<WebElement> priceElements) { // Çekilen fiyatların listesini -priceElements- oluşturur.
-        List<Double> prices = new ArrayList<>(); // prices boş arraylistini oluşturur.
+    @Step(" En Yüksek Fiyata göre sırala seçenği seçildi. ")
+    public void clickTheHighestPriceOptionInDropdown() {
+        Util util = new Util(driver);
+        try {
+            if (isElementPresent(firstDropdown)) {
+                waitForClickable(firstDropdown);
+                click(firstDropdown);
+                util.waitFor(3000);
+                click(firstSelect);
+                log.info(" En Yüksek Fiyat seçeneği seçildi. ");
+                scrollDown(1500);
+            } else if (isElementPresent(secondDropdown)) {
+                waitForClickable(secondDropdown);
+                click(secondDropdown);
+                util.waitFor(3000);
+                click(secondSelect);
+                log.info(" En Yüksek Fiyat seçeneği seçildi. ");
+                scrollDown(1500);
+            } else {
+                Assert.fail(" Sırala butonu görülemedi!");
+            }
+        } catch (Exception e) {
+            Assert.fail(" Sıralama dropdownu bulunurken hata oluştu! " + e.getMessage());
+        }
+    }
 
-        for (WebElement priceElement : priceElements) { // Her element için döner.
-            String priceText = priceElement.getText().replaceAll("[^0-9.]", ""); // Sayı ve nokta dışındakileri çıkartır.
+
+    private List<Double> extractPrices(List<WebElement> priceElements) {
+        List<Double> prices = new ArrayList<>();
+
+        for (WebElement priceElement : priceElements) {
+            String priceText = priceElement.getText().replaceAll("[^0-9.]", "").trim();
+
             if (!priceText.isEmpty()) {
                 try {
-                    double price = Double.parseDouble(priceText); // Boş değilse ondalığa çevirir ve price listesine ekler.
+                    double price = Double.parseDouble(priceText);
                     prices.add(price);
-                } catch (NumberFormatException ignored) {
+                } catch (NumberFormatException e) {
+                    log.error(" Hatalı fiyat: " + priceText);
                 }
             }
         }
-
         return prices;
     }
 
+
     private void verifySortedPrices(List<Double> prices) {
         List<Double> sortedPrices = new ArrayList<>(prices);
-        sortedPrices.sort(Collections.reverseOrder()); // Fiyatları büyükten küçüğe sıralar
+        sortedPrices.sort(Collections.reverseOrder());
 
-        Assert.assertEquals(prices, sortedPrices, " Fiyatlar doğru şekilde sıralanmadı. "); // Listeler karşılaştırılır ve doğrular.
+        Assert.assertEquals(prices, sortedPrices, " Fiyatlar doğru şekilde sıralanmadı. ");
     }
 
-    private String createPriceList(List<Double> prices) { // Double fiyat listesini alır metine dönüştürür.
+
+    private String createPriceList(List<Double> prices) {
         StringBuilder stringBuilder = new StringBuilder(" Fiyat Listesi: [");
         for (Double price : prices) {
             stringBuilder.append(price).append(" , ");
         }
-        stringBuilder.setLength(stringBuilder.length() - 3); // Son virgül ve boşluğu siler.
+        stringBuilder.setLength(stringBuilder.length() - 3);
         stringBuilder.append("]");
         return stringBuilder.toString();
     }
+
 
     @Step("Fiyatların yüksekten düşüğe sıralandığı doğrulandı.")
     public void verifyPricesListedCorrectly() {

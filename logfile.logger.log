@@ -196,3 +196,797 @@
 2023-09-01 14:47:53,604 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi. 
 2023-09-01 14:47:54,639 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 75.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.457 , 53.499 , 53.499] 
 2023-09-01 14:47:59,427 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-01 22:48:11,268 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-01 22:48:12,293 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-01 22:48:13,837 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-01 22:51:53,139 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-01 22:51:54,183 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-01 22:52:09,782 INFO  [Log]  Popup kapatıldı.  
+2023-09-01 22:52:15,948 INFO  [Log]  Kullanıcının başarılı bir şekilde sisteme giriş yaptığı doğrulandı.  
+2023-09-01 22:52:16,754 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-01 23:11:54,985 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-01 23:11:56,001 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-01 23:12:14,281 INFO  [Log]  Popup kapatıldı.  
+2023-09-01 23:12:20,440 INFO  [Log]  Kullanıcının başarılı bir şekilde sisteme giriş yaptığı doğrulandı.  
+2023-09-01 23:12:26,037 INFO  [Log]  Hesabım dropdown menüsü açıldı.  
+2023-09-01 23:12:28,138 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-01 23:43:23,264 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-01 23:43:24,019 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-01 23:43:49,362 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-01 23:43:50,176 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-01 23:44:14,541 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-01 23:44:34,618 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-01 23:44:35,697 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-01 23:45:00,033 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-01 23:45:14,919 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-01 23:45:15,793 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-01 23:45:41,090 INFO  [Log]  Popup çıkmadı.  
+2023-09-01 23:45:47,310 INFO  [Log]  Kullanıcının başarılı bir şekilde sisteme giriş yaptığı doğrulandı.  
+2023-09-01 23:45:53,683 INFO  [Log]  Hesabım dropdown menüsü açıldı.  
+2023-09-01 23:45:55,219 INFO  [Log]  Yeni meslek bilgisi girildi.  
+2023-09-01 23:46:00,553 INFO  [Log]  Meslek bilgisi başarılı bir şekilde güncellendi.  
+2023-09-01 23:46:01,400 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-04 23:31:53,846 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-04 23:31:54,826 INFO  [Log]  Hızlı giriş sayfası açılamadı!  
+2023-09-04 23:31:54,847 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-04 23:32:13,335 INFO  [Log]  Popup kapatıldı.  
+2023-09-04 23:32:22,446 INFO  [Log]  Hesabım dropdown menüsü açıldı.  
+2023-09-04 23:32:23,948 INFO  [Log]  Yeni meslek bilgisi girildi.  
+2023-09-04 23:32:24,925 INFO  [Log]  Meslek bilgisi başarılı bir şekilde güncellendi.  
+2023-09-04 23:32:26,017 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-04 23:33:10,261 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-04 23:33:11,215 INFO  [Log]  Hızlı giriş sayfası açılamadı!  
+2023-09-04 23:33:11,218 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-04 23:33:29,824 INFO  [Log]  Popup kapatıldı.  
+2023-09-04 23:33:38,790 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-04 23:33:54,332 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-04 23:33:54,379 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,392 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,404 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,408 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,425 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,436 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,446 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,457 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,467 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,478 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,490 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,498 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,508 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,525 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,540 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,555 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,567 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,581 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,596 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,608 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,617 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,633 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,641 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,656 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,668 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:33:54,892 INFO  [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-04 23:33:55,010 INFO  [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-04 23:33:55,044 INFO  [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-04 23:33:55,226 INFO  [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-04 23:33:55,258 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.457 , 53.499 , 52.999] 
+2023-09-04 23:34:00,098 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-04 23:34:56,210 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-04 23:34:58,226 INFO  [Log]  Hızlı giriş sayfası açılamadı!  
+2023-09-04 23:34:58,249 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-04 23:35:17,336 INFO  [Log]  Popup kapatıldı.  
+2023-09-04 23:35:23,468 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-04 23:35:36,507 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-04 23:35:36,782 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:36,817 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:36,837 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:36,861 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:36,878 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:36,907 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:36,927 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:36,961 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:36,986 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,011 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,031 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,068 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,088 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,110 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,128 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,148 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,179 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,198 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,218 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,244 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,271 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,298 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,319 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,342 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:37,366 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:35:38,917 INFO  [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-04 23:35:39,408 INFO  [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-04 23:35:39,510 INFO  [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-04 23:35:39,948 INFO  [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-04 23:35:40,012 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.457 , 53.499 , 52.999] 
+2023-09-04 23:35:45,126 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-04 23:42:47,508 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-04 23:42:50,068 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-04 23:43:22,391 INFO  [Log]  Popup kapatıldı.  
+2023-09-04 23:43:27,991 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-04 23:43:36,088 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-04 23:43:40,698 ERROR [Log]  Elemente tıklanamadı element click intercepted: Element <label class="item a-radio " for="sort-3">...</label> is not clickable at point (258, 750). Other element would receive the click: <efilli-layout-default class="efilli-layout-default"></efilli-layout-default>
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8deba64600780b4783671d161770742f, clickElement {id=F601D2568EAB75AA403F1E12A53AB030_element_370}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:57746}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:57746/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (8deba64600780b4783671d161770742f)] -> xpath: //label[@for='sort-3']]
+Session ID: 8deba64600780b4783671d161770742f 
+2023-09-04 23:43:40,698 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-04 23:43:40,827 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:40,856 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:40,876 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:40,901 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:40,927 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:40,968 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:40,988 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,018 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,038 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,067 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,098 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,118 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,157 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,220 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,237 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,258 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,278 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,298 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,317 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,347 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,367 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,387 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,413 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,433 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,458 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:43:41,508 INFO  [Log]  Hatalı fiyat: 2.249791220.199 
+2023-09-04 23:43:41,529 INFO  [Log]  Hatalı fiyat: 1.894781216.999 
+2023-09-04 23:43:43,298 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-04 23:48:05,652 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-04 23:48:07,566 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-04 23:48:08,668 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-04 23:48:44,256 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-04 23:48:46,129 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-04 23:49:17,928 INFO  [Log]  Popup kapatıldı.  
+2023-09-04 23:49:27,239 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-04 23:49:35,331 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-04 23:49:36,717 ERROR [Log]  Elemente tıklanamadı element click intercepted: Element is not clickable at point (258, 1606)
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab33939a55c7d7eba9f7a7102bf3d837, clickElement {id=BA94E5D11C874AE7E5414F0FD69A2516_element_376}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58096/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (ab33939a55c7d7eba9f7a7102bf3d837)] -> xpath: (//div[@class='m-accordion__head '])[1]]
+Session ID: ab33939a55c7d7eba9f7a7102bf3d837 
+2023-09-04 23:53:27,516 ERROR [Log]  Elemente tıklanamadı no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ab33939a55c7d7eba9f7a7102bf3d837, findElement {using=xpath, value=//label[@for='sort-3']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58096}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58096/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: ab33939a55c7d7eba9f7a7102bf3d837 
+2023-09-04 23:53:27,526 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-04 23:53:28,368 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-04 23:53:52,980 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-04 23:53:54,832 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-04 23:54:27,737 INFO  [Log]  Popup kapatıldı.  
+2023-09-04 23:54:31,457 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-04 23:54:48,542 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-04 23:54:48,808 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:48,840 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:48,866 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:48,896 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:48,917 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:48,938 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:48,959 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:48,983 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,008 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,037 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,059 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,077 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,108 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,128 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,148 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,175 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,198 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,221 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,256 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,279 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,304 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,326 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,348 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,388 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:49,409 INFO  [Log]  Fiyat metni boş!  
+2023-09-04 23:54:50,767 INFO  [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-04 23:54:50,996 INFO  [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-04 23:54:51,067 INFO  [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-04 23:54:51,191 INFO  [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-04 23:54:51,507 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.457 , 53.499 , 52.999] 
+2023-09-04 23:54:56,497 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 00:10:15,340 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 00:10:17,537 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 00:10:46,913 INFO  [Log]  Popup kapatıldı.  
+2023-09-05 00:10:56,272 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 00:11:04,376 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 00:11:08,957 ERROR [Log]  Elemente tıklanamadı element click intercepted: Element <label class="item a-radio " for="sort-3">...</label> is not clickable at point (258, 750). Other element would receive the click: <efilli-layout-default class="efilli-layout-default"></efilli-layout-default>
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1c6edc89471e134dff0d9a393187f5d0, clickElement {id=9F96B8F57DE1F7E261C9DB001BC31004_element_381}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58756}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58756/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (1c6edc89471e134dff0d9a393187f5d0)] -> xpath: //label[@for='sort-3']]
+Session ID: 1c6edc89471e134dff0d9a393187f5d0 
+2023-09-05 00:11:08,957 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 00:11:09,067 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,094 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,117 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,138 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,156 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,183 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,207 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,231 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,257 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,288 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,312 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,331 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,364 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,381 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,401 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,418 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,438 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,470 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,488 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,510 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,527 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,551 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,568 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,588 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,607 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:11:09,652 ERROR [Log]  Hatalı fiyat: 2.249791220.199 
+2023-09-05 00:11:09,674 ERROR [Log]  Hatalı fiyat: 1.894781216.999 
+2023-09-05 00:11:11,338 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 00:13:22,829 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 00:13:24,947 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 00:13:58,313 INFO  [Log]  Popup kapatıldı.  
+2023-09-05 00:14:02,083 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 00:14:18,972 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 00:14:19,067 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,086 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,107 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,127 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,151 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,176 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,196 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,213 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,227 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,252 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,277 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,301 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,317 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,337 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,368 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,388 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,408 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,427 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,449 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,468 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,497 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,521 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,538 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,557 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,578 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:14:19,907 ERROR [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-05 00:14:21,100 ERROR [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-05 00:14:21,166 ERROR [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-05 00:14:21,289 ERROR [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-05 00:14:21,357 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.457 , 53.499 , 52.999] 
+2023-09-05 00:14:26,478 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 00:25:31,376 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 00:25:32,613 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 00:26:03,604 INFO  [Log]  Popup kapatıldı.  
+2023-09-05 00:26:10,380 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 00:26:18,427 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 00:26:22,837 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 00:26:22,881 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,887 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,898 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,907 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,917 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,931 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,937 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,948 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,957 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,971 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,980 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,987 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:22,998 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,006 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,017 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,026 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,036 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,037 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,048 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,066 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,076 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,091 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,101 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,110 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,120 ERROR [Log]  Fiyat metni boş!  
+2023-09-05 00:26:23,282 ERROR [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-05 00:26:23,392 ERROR [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-05 00:26:23,417 ERROR [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-05 00:26:23,487 ERROR [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-05 00:26:23,516 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.457 , 53.499 , 52.999 ] 
+2023-09-05 00:26:28,287 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 00:28:36,587 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 00:28:37,694 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 00:29:06,042 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 00:29:06,042 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 00:29:08,112 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 00:29:16,166 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 00:29:24,578 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 00:29:25,041 ERROR [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-05 00:29:25,137 ERROR [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-05 00:29:25,167 ERROR [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-05 00:29:25,237 ERROR [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-05 00:29:25,267 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.457 , 53.499 , 52.999 ] 
+2023-09-05 00:29:30,051 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:28:55,775 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:28:57,279 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 12:29:12,890 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:29:12,898 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:29:20,646 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:29:28,795 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 12:29:35,431 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 12:29:35,584 INFO  [Log]  Fiyat Listesi:] 
+2023-09-05 12:29:40,616 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:43:32,849 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:43:33,871 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 12:43:50,774 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:43:50,774 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:43:53,688 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:44:02,957 ERROR [Log]  Elemente tıklanamadı element click intercepted: Element is not clickable at point (1201, -393)
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b1b76b79492ab03841543c32c4103ab, clickElement {id=FF61EC710E7ED0A8E9DCE6999C077AFF_element_568}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51774/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0b1b76b79492ab03841543c32c4103ab)] -> xpath: //div[@class='m-accordion__head groupm-container-head']]
+Session ID: 0b1b76b79492ab03841543c32c4103ab 
+2023-09-05 12:44:06,015 ERROR [Log]  Elemente tıklanamadı element not interactable
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [0b1b76b79492ab03841543c32c4103ab, clickElement {id=FF61EC710E7ED0A8E9DCE6999C077AFF_element_570}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51774}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51774/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (0b1b76b79492ab03841543c32c4103ab)] -> xpath: //label[@for='sort-3']]
+Session ID: 0b1b76b79492ab03841543c32c4103ab 
+2023-09-05 12:44:06,016 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 12:44:06,068 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,089 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,101 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,119 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,132 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,146 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,162 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,178 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,194 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,209 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,222 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,238 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,261 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,268 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,286 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,302 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,330 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,349 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,365 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,387 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,402 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,415 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,430 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,445 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,461 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:44:06,502 ERROR [Log]  Hatalı fiyat: 2.249791220.199 
+2023-09-05 12:44:06,518 ERROR [Log]  Hatalı fiyat: 1.894781216.999 
+2023-09-05 12:44:07,854 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:45:01,976 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:45:02,928 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 12:45:18,298 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:45:18,298 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:45:24,037 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:45:34,147 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 12:45:34,171 ERROR [Log]  Element sayfada mevcut değil! By.xpath: (//div[@class='m-accordion__head '])[1] 
+2023-09-05 12:45:35,275 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:46:29,142 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:46:30,291 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 12:46:54,726 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:46:54,726 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:46:59,545 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:47:04,841 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 12:47:04,962 ERROR [Log]  Element sayfada mevcut değil! By.xpath: (//div[@class='m-accordion__head '])[1] 
+2023-09-05 12:47:05,779 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:48:04,941 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:48:10,363 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:48:30,778 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 12:48:30,830 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,846 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,854 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,870 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,878 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,894 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,902 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,918 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,926 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,943 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,958 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,969 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,982 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:30,994 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,038 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,054 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,062 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,078 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,094 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,102 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,118 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,134 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,150 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,158 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,174 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:48:31,376 ERROR [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-05 12:48:31,521 ERROR [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-05 12:48:31,562 ERROR [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-05 12:48:31,643 ERROR [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-05 12:48:31,667 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.78172 , 53.999 , 53.499 ] 
+2023-09-05 12:48:36,517 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:49:25,011 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:49:26,192 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 12:49:51,396 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:49:51,396 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:49:53,822 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:50:05,111 ERROR [Log]  Elemente tıklanamadı element click intercepted: Element is not clickable at point (1201, -395)
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [867317611cc821d1ce3cc1ea6d8e9f58, clickElement {id=1227871FA94009E1B8991E15782CC44F_element_555}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52371/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (867317611cc821d1ce3cc1ea6d8e9f58)] -> xpath: //div[@class='m-accordion__head groupm-container-head']]
+Session ID: 867317611cc821d1ce3cc1ea6d8e9f58 
+2023-09-05 12:50:08,153 ERROR [Log]  Elemente tıklanamadı element not interactable
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [867317611cc821d1ce3cc1ea6d8e9f58, clickElement {id=1227871FA94009E1B8991E15782CC44F_element_556}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52371}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52371/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (867317611cc821d1ce3cc1ea6d8e9f58)] -> xpath: //label[@for='sort-3']]
+Session ID: 867317611cc821d1ce3cc1ea6d8e9f58 
+2023-09-05 12:50:08,153 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 12:50:08,251 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,267 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,284 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,302 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,320 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,335 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,353 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,368 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,382 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,397 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,401 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,418 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,434 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,461 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,477 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,493 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,501 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,517 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,554 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,586 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,607 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,634 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,661 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,667 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,683 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:50:08,717 ERROR [Log]  Hatalı fiyat: 2.249791220.199 
+2023-09-05 12:50:08,745 ERROR [Log]  Hatalı fiyat: 1.894781216.999 
+2023-09-05 12:50:10,063 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:51:24,899 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:51:25,996 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 12:51:49,949 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:51:49,949 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:51:51,937 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:52:01,291 ERROR [Log]  Elemente tıklanamadı element click intercepted: Element is not clickable at point (1201, 813)
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [452f461e333de6a0fc53891820f14af6, clickElement {id=89A22471494D5DA473C91E77C113B5FC_element_590}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52534/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (452f461e333de6a0fc53891820f14af6)] -> xpath: //div[@class='m-accordion__head groupm-container-head']]
+Session ID: 452f461e333de6a0fc53891820f14af6 
+2023-09-05 12:52:04,328 ERROR [Log]  Elemente tıklanamadı element not interactable
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [452f461e333de6a0fc53891820f14af6, clickElement {id=89A22471494D5DA473C91E77C113B5FC_element_599}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52534}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52534/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (452f461e333de6a0fc53891820f14af6)] -> xpath: //label[@for='sort-3']]
+Session ID: 452f461e333de6a0fc53891820f14af6 
+2023-09-05 12:52:04,328 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 12:52:04,437 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,450 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,464 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,469 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,485 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,502 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,519 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,553 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,583 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,619 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,647 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,680 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,702 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,719 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,735 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,753 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,771 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,796 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,802 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,827 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,835 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,853 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,867 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,869 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,886 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:52:04,918 ERROR [Log]  Hatalı fiyat: 2.249791220.199 
+2023-09-05 12:52:04,935 ERROR [Log]  Hatalı fiyat: 1.894781216.999 
+2023-09-05 12:52:06,254 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:53:11,617 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:53:12,763 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 12:53:37,179 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:53:37,179 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:53:39,566 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:53:47,988 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 12:53:49,170 ERROR [Log]  Elemente tıklanamadı element click intercepted: Element is not clickable at point (258, 1134)
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a8cdb577ea930fdaac16e803eba7f715, clickElement {id=24697E7AAEF4C0584A1D24A5871B402B_element_580}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52687}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52687/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a8cdb577ea930fdaac16e803eba7f715)] -> xpath: (//div[@class='m-accordion__head '])[1]]
+Session ID: a8cdb577ea930fdaac16e803eba7f715 
+2023-09-05 12:53:52,209 ERROR [Log]  Elemente tıklanamadı element not interactable
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a8cdb577ea930fdaac16e803eba7f715, clickElement {id=24697E7AAEF4C0584A1D24A5871B402B_element_600}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52687}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52687/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (a8cdb577ea930fdaac16e803eba7f715)] -> xpath: //label[@for='sort-3']]
+Session ID: a8cdb577ea930fdaac16e803eba7f715 
+2023-09-05 12:53:52,242 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 12:53:52,291 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,303 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,319 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,325 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,341 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,349 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,357 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,373 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,382 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,389 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,437 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,453 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,461 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,477 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,485 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,557 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,573 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,589 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,597 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,613 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,621 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,637 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,645 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,661 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,669 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:53:52,701 ERROR [Log]  Hatalı fiyat: 2.249791220.199 
+2023-09-05 12:53:52,709 ERROR [Log]  Hatalı fiyat: 1.894781216.999 
+2023-09-05 12:53:53,881 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:54:37,791 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:54:43,164 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:54:43,164 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:54:45,162 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:54:53,297 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 12:54:54,541 ERROR [Log]  Elemente tıklanamadı element click intercepted: Element is not clickable at point (258, 980)
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [99bd197d43818cb33e289074b1dfd93b, clickElement {id=3E1E0536D5CE7D1120FB9A0889359DD5_element_313}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52834}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52834/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (99bd197d43818cb33e289074b1dfd93b)] -> xpath: (//div[@class='m-accordion__head '])[1]]
+Session ID: 99bd197d43818cb33e289074b1dfd93b 
+2023-09-05 12:54:57,618 ERROR [Log]  Elemente tıklanamadı element not interactable
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [99bd197d43818cb33e289074b1dfd93b, clickElement {id=3E1E0536D5CE7D1120FB9A0889359DD5_element_330}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52834}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52834/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (99bd197d43818cb33e289074b1dfd93b)] -> xpath: //label[@for='sort-3']]
+Session ID: 99bd197d43818cb33e289074b1dfd93b 
+2023-09-05 12:54:57,618 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 12:54:57,674 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,690 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,705 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,718 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,781 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,804 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,815 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,860 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,876 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,892 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,908 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,924 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,937 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,947 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,961 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,974 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:57,985 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:58,000 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:58,010 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:58,020 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:58,035 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:58,037 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:58,057 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:58,070 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:58,084 ERROR [Log]  Fiyat boş!  
+2023-09-05 12:54:58,119 ERROR [Log]  Hatalı fiyat: 2.249791220.199 
+2023-09-05 12:54:58,151 ERROR [Log]  Hatalı fiyat: 1.894781216.999 
+2023-09-05 12:54:59,436 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:55:23,833 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:55:29,255 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:55:29,255 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:55:31,333 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:59:25,758 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 12:59:41,180 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 12:59:46,581 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 12:59:46,581 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 12:59:49,005 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 12:59:56,040 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 13:00:00,089 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 13:00:00,146 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,154 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,170 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,178 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,194 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,202 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,218 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,226 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,242 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,250 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,258 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,274 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,290 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,299 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,314 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,330 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,346 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,362 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,370 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,386 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,402 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,410 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,426 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,442 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,450 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:00:00,670 ERROR [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-05 13:00:00,802 ERROR [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-05 13:00:00,849 ERROR [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-05 13:00:00,938 ERROR [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-05 13:00:00,954 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.78172 , 53.999 , 53.499 ] 
+2023-09-05 13:00:05,846 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 13:00:27,599 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 13:00:28,622 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 13:00:52,410 ERROR [Log]  Element sayfada mevcut değil! By.cssSelector: button.hype_popup-close-btn 
+2023-09-05 13:00:52,410 INFO  [Log]  Popup çıkmadı.  
+2023-09-05 13:00:54,540 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 13:01:05,565 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 13:01:09,568 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 13:01:09,736 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,752 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,768 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,776 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,792 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,808 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,825 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,842 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,856 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,869 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,885 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,900 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,909 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,932 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,943 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,969 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:09,985 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:10,000 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:10,018 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:10,026 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:10,049 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:10,059 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:10,077 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:10,093 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:10,110 ERROR [Log]  Fiyat boş!  
+2023-09-05 13:01:10,326 ERROR [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-05 13:01:10,444 ERROR [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-05 13:01:10,476 ERROR [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-05 13:01:10,557 ERROR [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-05 13:01:10,573 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 56.999 , 56.599 , 55.499 , 54.999 , 54.78172 , 53.999 , 53.499 ] 
+2023-09-05 13:01:15,478 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 13:27:24,729 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 13:27:25,861 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 13:27:55,149 INFO  [Log]  Popup kapatıldı.  
+2023-09-05 13:28:01,648 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 13:28:08,443 ERROR [Log]  Element sayfada mevcut değil! By.xpath: //div[@class='m-accordion__head groupm-container-head'] 
+2023-09-05 13:28:18,570 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 13:28:19,094 ERROR [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-05 13:28:19,212 ERROR [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-05 13:28:19,244 ERROR [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-05 13:28:19,321 ERROR [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-05 13:28:19,377 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 57.299 , 56.999 , 55.499 , 54.999 , 54.78172 , 53.999 , 53.499 ] 
+2023-09-05 13:28:24,251 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 13:29:13,324 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 13:29:14,473 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 13:29:50,552 ERROR [Log]  Elemente tıklanamadı no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=116.0.5845.141)
+Build info: version: '4.10.0', revision: 'c14d967899'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [48bf4b995f42fc70afecd37652973503, findElement {using=xpath, value=//button[@id='webLogin-button']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 116.0.5845.141, chrome: {chromedriverVersion: 116.0.5845.96 (1a3918166880..., userDataDir: C:\Users\buseh\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53695}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53695/devtoo..., se:cdpVersion: 116.0.5845.141, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 48bf4b995f42fc70afecd37652973503 
+2023-09-05 13:30:06,634 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 13:30:07,830 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 13:30:36,705 INFO  [Log]  Popup kapatıldı.  
+2023-09-05 13:30:38,922 INFO  [Log]  Bilgisayar-Tablet bölümüne girildi. 
+2023-09-05 13:30:50,215 INFO  [Log]  En Yüksek Fiyat seçeneği seçildi.  
+2023-09-05 13:30:50,768 ERROR [Log]  Hatalı fiyat: 74.00075.9991.999 
+2023-09-05 13:30:50,880 ERROR [Log]  Hatalı fiyat: 58.99964.9996.000 
+2023-09-05 13:30:50,913 ERROR [Log]  Hatalı fiyat: 57.99959.9992.000 
+2023-09-05 13:30:50,997 ERROR [Log]  Hatalı fiyat: 5.985531253.999 
+2023-09-05 13:30:51,011 INFO  [Log]  Fiyat Listesi: [109.99901 , 105.999 , 101.999 , 99.999 , 96.999 , 96.999 , 94.999 , 89.999 , 89.999 , 84.999 , 83.629 , 81.999 , 80.9864 , 75.999 , 69.999 , 69.999 , 69.999 , 66.99999 , 64.999 , 64.999 , 64.099 , 61.999 , 59.999 , 58.999 , 57.999 , 57.299 , 56.999 , 55.499 , 54.999 , 54.78172 , 53.999 , 53.499] 
+2023-09-05 13:30:55,815 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 16:21:50,533 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 16:21:52,151 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 16:22:07,754 INFO  [Log]  Popup kapatıldı.  
+2023-09-05 16:22:13,955 INFO  [Log]  Kullanıcının başarılı bir şekilde sisteme giriş yaptığı doğrulandı.  
+2023-09-05 16:22:14,813 INFO  [Log]  Web sitesi kapatıldı.  
+2023-09-05 16:24:06,695 INFO  [Log]  Turkcell web sitesine gidildi.  
+2023-09-05 16:24:08,513 INFO  [Log]  Hızlı giriş sayfası açıldı.  
+2023-09-05 16:24:27,111 INFO  [Log]  Popup kapatıldı.  
+2023-09-05 16:24:33,712 INFO  [Log]  Hesabım dropdown menüsü açıldı.  
+2023-09-05 16:24:35,491 INFO  [Log]  Yeni meslek bilgisi girildi.  
+2023-09-05 16:24:36,626 INFO  [Log]  Meslek bilgisi başarılı bir şekilde güncellendi.  
+2023-09-05 16:24:37,568 INFO  [Log]  Web sitesi kapatıldı.  

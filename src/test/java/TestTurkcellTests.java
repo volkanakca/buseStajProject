@@ -39,8 +39,7 @@ public class TestTurkcellTests extends BaseTest {
         PasajPage pasajPage = new PasajPage(driver);
         loginPage.succesfullyLoggedInUser();
         loginPage.popupIfExist();
-        loginPage.verifyLogin();
-        pasajPage.changeJobandSubmit("Doktor");
+        pasajPage.changeJobandSubmit();
         pasajPage.verifySuccessfulTransaction();
     }
     @Test(description = "Pc-Tablet fiyatlarını en yüksek fiyata göre sıralama.")
@@ -52,10 +51,10 @@ public class TestTurkcellTests extends BaseTest {
 
         PasajPage pasajPage = new PasajPage(driver);
         LoginPage loginPage = new LoginPage(driver);
-      //  loginPage.succesfullyLoggedInUser();
-        //loginPage.popupIfExist();
-       // loginPage.verifyLogin();
-        pasajPage.listPricesHighestToLowest();
+        loginPage.succesfullyLoggedInUser();
+        loginPage.popupIfExist();
+        pasajPage.PcTabletPage();
+        pasajPage.clickTheHighestPriceOptionInDropdown();
         pasajPage.verifyPricesListedCorrectly();
 
     }
